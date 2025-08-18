@@ -3,7 +3,7 @@ import { defineConfig } from './src/main/defineConfig';
 export default defineConfig({
   appId: 'org.holochain.dino-adventure',
   productName: 'Dino Adventure',
-  version: '0.1.3-rc.2',
+  version: '0.1.3-rc.3',
   macOSCodeSigning: true,
   windowsEVCodeSigning: true,
   fallbackToIndexHtml: true,
@@ -19,14 +19,14 @@ export default defineConfig({
   iceUrls: ['stun:stun.cloudflare.com:3478', 'stun:stun.l.google.com:19302'],
   bins: {
     holochain: {
-      version: '0.5.5-rc.2',
+      version: '0.5.5-rc.3',
       sha256: {
         'x86_64-unknown-linux-gnu':
-          '3ae6d6b2033e4422419c9fa3e8ab000081018486b5ea0ac2d9715090bf3bc5d2',
+          'f5103e984d0050daaf25e76bf9694af569a07c88c63399ca027be2ae64e41cbb',
         'x86_64-pc-windows-msvc.exe':
-          'f81d39eecf3838646d76b478600053e71a131ce3a13b0bd9b5c490dfc04355a7',
-        'x86_64-apple-darwin': '48f2d131271a4944ad41c3f1724674fb00e4d8d50da21bea454922504dbb98bc',
-        'aarch64-apple-darwin': 'c8bd0247ce85dd124e4bb3408d02bca2e7746e4a8d2720acfa28f6f2782e23cd',
+          '165792ee921e488eef47cfbcc5428cec51e83be20c517e667921e842e7ac849b',
+        'x86_64-apple-darwin': '3b702717f6e043e2ea5383e532508a4ce034660db65466c272228514a7af326a',
+        'aarch64-apple-darwin': 'd0b12439c43ce8271c80fe77b857763b45d2472e0b45317b096f6bad163be145',
       },
     },
     lair: {
