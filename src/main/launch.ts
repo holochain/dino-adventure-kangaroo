@@ -5,13 +5,7 @@ import { KangarooFileSystem } from './filesystem';
 import { PasswordType } from './types';
 import { RunOptions } from './cli';
 import { initializeLairKeystore, launchLairKeystore } from './lairKeystore';
-import {
-  HAPP_APP_ID,
-  HOLOCHAIN_BINARY,
-  KANGAROO_CONFIG,
-  LAIR_BINARY,
-  UI_DIRECTORY,
-} from './const';
+import { HAPP_APP_ID, HOLOCHAIN_BINARY, KANGAROO_CONFIG, LAIR_BINARY, UI_DIRECTORY } from './const';
 import { createHappWindow } from './windows';
 import { ZomeCallSigner } from '@holochain/hc-spin-rust-utils';
 import { HolochainManager } from './holochainManager';
@@ -76,7 +70,7 @@ export async function launch(
     kangarooFs,
     runOptions.holochainPath ? runOptions.holochainPath : HOLOCHAIN_BINARY,
     password,
-    KANGAROO_CONFIG.bins.holochain.version,
+    KANGAROO_CONFIG.bins.holochainVersion,
     kangarooFs.conductorDir,
     kangarooFs.conductorConfigPath,
     lairUrl,
