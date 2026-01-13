@@ -119,7 +119,7 @@ export type KangarooConfig = {
   };
   bins: {
     holochainVersion: string;
-    holochainFeature?: "go-pion" | "go-pion-unstable" | "iroh";
+    holochainFeature?: 'go-pion' | 'go-pion-unstable' | 'iroh';
     holochain: Sha256Hashes;
     lair: Sha256Hashes;
   };
