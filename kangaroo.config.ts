@@ -14,9 +14,9 @@ export default defineConfig({
     sha256: '3cce5c01358c471d78839beb5c1c031648c6dc2e83717e7bfc23ae15ee156254',
   },
   passwordMode: 'no-password',
-  bootstrapUrl: 'https://dev-test-bootstrap2.holochain.org/',
+  bootstrapUrl: 'https://dev-test-bootstrap2-iroh.holochain.org/',
   signalUrl: 'wss://dev-test-bootstrap2.holochain.org/',
-  relayUrl: 'https://dev-test-bootstrap2-iroh-relay.holochain.org/',
+  relayUrl: 'https://dev-test-bootstrap2-iroh.holochain.org/',
   iceUrls: ['stun:stun.cloudflare.com:3478', 'stun:stun.l.google.com:19302'],
   bins: {
     holochainVersion: '0.7.0-dev.21-iroh-fix',
