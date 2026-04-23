@@ -11,7 +11,7 @@ export default defineConfig({
   systray: true,
   webhapp: {
     url: 'https://github.com/holochain/dino-adventure/releases/download/v0.3.0-dev.0-iroh-fix/DinoAdventure.webhapp',
-    sha256: '3cce5c01358c471d78839beb5c1c031648c6dc2e83717e7bfc23ae15ee156254',
+    sha256: '5ebc0eccd7bd9c71386224d80237c88bb6340ec1ac5197dfd9dbf0f2da8606c3',
   },
   passwordMode: 'no-password',
   bootstrapUrl: 'https://dev-test-bootstrap2-iroh.holochain.org/',
