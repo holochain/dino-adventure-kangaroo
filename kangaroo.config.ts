@@ -5,7 +5,7 @@ export default defineConfig({
   productName: 'Dino Adventure',
   version: '0.3.0-dev.3',
   macOSCodeSigning: true,
-  windowsEVCodeSigning: true,
+  windowsEVCodeSigning: false,
   fallbackToIndexHtml: true,
   autoUpdates: true,
   systray: true,
