@@ -3,15 +3,15 @@ import { defineConfig } from './src/main/defineConfig';
 export default defineConfig({
   appId: 'org.holochain.dino-adventure',
   productName: 'Dino Adventure',
-  version: '0.3.0-dev.4',
+  version: '0.3.0-rc.0',
   macOSCodeSigning: true,
   windowsEVCodeSigning: false,
   fallbackToIndexHtml: true,
   autoUpdates: true,
   systray: true,
   webhapp: {
-    url: 'https://github.com/holochain/dino-adventure/releases/download/v0.3.0-dev.2/dino-adventure-v0.3.0-dev.2.webhapp',
-    sha256: '87aa4f98645a79af7153aa02f7033572f79186c391382f23d122d44d1a275498',
+    url: 'https://github.com/holochain/dino-adventure/releases/download/v0.3.0-rc.0/dino-adventure-v0.3.0-rc.0.webhapp',
+    sha256: 'fe1dcf67f2aab4e036f4557697e1c977f1575615a92504ce492a6e0412bb28e9',
   },
   passwordMode: 'password-optional',
   bootstrapUrl: 'https://dev-test-bootstrap2-iroh.holochain.org/',
