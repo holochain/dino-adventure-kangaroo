@@ -14,8 +14,8 @@ export default defineConfig({
     sha256: 'fe1dcf67f2aab4e036f4557697e1c977f1575615a92504ce492a6e0412bb28e9',
   },
   passwordMode: 'password-optional',
-  bootstrapUrl: 'https://dev-test-bootstrap2-iroh.holochain.org/',
-  relayUrl: 'https://dev-test-bootstrap2-iroh.holochain.org/',
+  bootstrapUrl: 'https://dev-test-bootstrap2.holochain.org/',
+  relayUrl: 'https://dev-test-bootstrap2.holochain.org/',
   bins: {
     holochainVersion: '0.7.0-rc.1',
     holochain: {
